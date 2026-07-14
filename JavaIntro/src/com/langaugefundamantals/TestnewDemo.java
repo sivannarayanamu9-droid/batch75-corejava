@@ -5,7 +5,7 @@ public class TestnewDemo {
 		System.out.println("static block is calling while class loading....");
 	}
 	{
-		System.out.println("instance block is calling while calling constructor");
+		System.out.println("instance block is calling when we  calling constructor");
 	}
 
 	public static void main(String[] args) {
