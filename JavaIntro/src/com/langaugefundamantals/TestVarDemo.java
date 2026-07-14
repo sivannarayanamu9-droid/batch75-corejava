@@ -1,15 +1,15 @@
 package com.langaugefundamantals;
 
 public class TestVarDemo {
-	//static block:whwnever class loading static block executed
-	static
-	{
-		var a=20;
-		var b=5;
-		var div=a/b;
-		System.out.println("division of two numbers are :"+div);
+	// static block:whwnever class loading static block executed
+	static {
+		var a = 20;
+		var b = 5;
+		var div = a / b;
+		System.out.println("division of two numbers are :" + div);
 	}
-	//instance block:whenever default construcor is calling instance block gets executed
+	// instance block:whenever default construcor is calling instance block gets
+	// executed
 	{
 		var a = 10;
 		var b = 20;
