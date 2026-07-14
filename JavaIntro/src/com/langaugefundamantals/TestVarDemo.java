@@ -1,6 +1,19 @@
 package com.langaugefundamantals;
 
 public class TestVarDemo {
+	static
+	{
+		var a=20;
+		var b=5;
+		var div=a/b;
+		System.out.println("division of two numbers are :"+div);
+	}
+	{
+		var a = 10;
+		var b = 20;
+		var diff = b - a;
+		System.out.println("subtraction of two numbers are :" + diff);
+	}
 
 	void addition() {
 		var a = 10;// var is a generic datatype to store any value inside the methods or blocks
