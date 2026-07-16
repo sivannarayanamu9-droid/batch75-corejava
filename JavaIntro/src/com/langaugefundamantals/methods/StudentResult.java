@@ -22,6 +22,7 @@ public class StudentResult {
 	public static void main(String[] args) {
 		System.out.println("main method started");
 		StudentResult objStudentResult = new StudentResult();
+		String s = new String();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your name :");
 		String name = sc.nextLine();

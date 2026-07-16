@@ -27,7 +27,7 @@ public class PersonalInformation {
 	public static void main(String[] args) {
 		System.out.println("main method started");
 		PersonalInformation objPersonalInformation = new PersonalInformation();
-		String s = new String();
+		// String s = new String();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your age");
 		int age = sc.nextInt();
@@ -48,8 +48,10 @@ public class PersonalInformation {
 		double salary = sc.nextDouble();
 		objPersonalInformation.salaryInfo(salary);
 		System.out.println("Enter your gender :");
-		char gender = sc.next().charAt(0);
+		char gender = sc.next().charAt(0);// method chaining
 		objPersonalInformation.getGenderDetails(gender);
+		// String s =new String();
+//		Scanner sc = new Scanner();
 
 		System.out.println("main method ended");
 
