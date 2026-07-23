@@ -48,6 +48,7 @@ public class CricketPlayer {
 		double totalRuns = sc.nextDouble();
 		CricketPlayer objCricketPlayer3 = new CricketPlayer(playerName, matchesPlayed, totalRuns);// calling
 																									// parameterized
+																									// constructor //
 																									// constructor
 		objCricketPlayer3.employeeInformation();
 		System.out.println("main method ended");
