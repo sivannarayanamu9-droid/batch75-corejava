@@ -21,8 +21,8 @@ public class BankAccount {
 	}
 
 	BankAccount(String accountHolder, long accountNumber, double balance) {
+
 		System.out.println("Three argument constructor called");
-		this("shiva");
 		this.accountHolder = accountHolder;
 		this.accountNumber = accountNumber;
 		this.balance = balance;
